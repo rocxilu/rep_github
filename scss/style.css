@@ -59,12 +59,8 @@
   display: grid;
   -ms-grid-columns: 350px 350px 350px;
       grid-template-columns: 350px 350px 350px;
-  -ms-grid-rows: 600px;
-      grid-template-rows: 600px;
   grid-gap: 15px;
   width: 100%;
-  max-width: 1000px;
-  border: solid 0px;
   margin: auto;
   text-align: center;
   -webkit-box-pack: center;
@@ -76,18 +72,11 @@
 .contenedor2 {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 350px 350px 350px;
-      grid-template-columns: 350px 350px 350px;
-  -ms-grid-rows: 380px;
-      grid-template-rows: 380px;
   grid-gap: 15px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .caja2 {
-  display: block;
+  width: 350px;
   padding: 20px;
   color: purple;
   background: #F2CBBD;
@@ -123,6 +112,7 @@ footer {
   font-style: italic;
   font-size: 50px;
   color: purple;
+  text-align: center;
 }
 
 body {
@@ -193,28 +183,17 @@ body .logo {
   font-style: italic;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
   text-align: center;
 }
 
 .texto__titulo--efectos {
-  width: 700px;
+  width: 1000px;
   text-align: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-left: 300px;
   padding-bottom: 30px;
-}
-
-.texto__titulo--efectos .texto:hover {
-  height: 170px;
-  width: 980px;
-  -webkit-transition: height 2s;
-  transition: height 2s;
-  width: 1s;
-  -webkit-transition: all 2s;
-  transition: all 2s;
+  padding-left: 300px;
 }
 
 .video {
@@ -223,7 +202,7 @@ body .logo {
 }
 
 .caja {
-  width: 210px;
+  width: 180px;
   height: 500px;
   margin-left: 90px;
   padding: 10px;
